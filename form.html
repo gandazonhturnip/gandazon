@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komponen | Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <img src="image/Alinan_Sajak.jpeg" />
+      </header>
+      <section class="content">
+        <form action="proses-login.js" method="post">
+          <label class="form-style"
+            >Nama Lengkap:
+            <input class="input" type="text" placeholder="Nama Lengkap" />
+          </label>
+
+          <label class="form-style">
+            HP:
+            <input class="input" type="number" placeholder="Hp" />
+          </label>
+
+          <label class="form-style">
+            Email:
+            <input class="input" type="email" placeholder="Email" />
+          </label>
+
+          <label class="form-style">
+            Password:
+            <input class="input" type="password" />
+          </label>
+
+          <label class="form-style">
+            Alamat:
+            <textarea class="input"></textarea>
+          </label>
+
+          <label class="form-style">
+            <legend>Hobby:</legend>
+            <label> <input type="checkbox" value="Sepakbola" /> Sepakbola </label>
+
+            <label> <input type="checkbox" value="Badminton" /> Badminton </label>
+
+            <label> <input type="checkbox" value="Menulis" /> Menulis</label>
+
+            <label> <input type="checkbox" value="Coding" />Coding</label>
+          </label>
+
+          <label class="form-style">
+            <legend>Warna:</legend>
+            <label> <input type="radio" value="Merah" name="warna" />Merah</label>
+
+            <label><input type="radio" value="Putih" name="warna" />Putih</label>
+
+            <label><input type="radio" value="Hitam" name="warna" />Hitam</label>
+          </label>
+
+          <label class="form-style">
+            Buah:
+            <select class="input">
+              <option value="Jambu">Jambu</option>
+              <option value="Mangga">Mangga</option>
+              <option value="Jeruk">Jeruk</option>
+              <option value="Anggur">Anggur</option>
+            </select>
+          </label>
+
+          <label class="form-style">
+            Kota:
+            <input list="Kota" class="input" />
+            <datalist id="Kota">
+              <option value="M">Medan</option>
+              <option value="J">Jakarta</option>
+              <option value="B">Bandung</option>
+              <option value="L">London</option>
+              <option value="M">Munchen</option>
+            </datalist>
+          </label>
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+      <nav class="sidebar">
+        <a href="home.html">Home</a>
+        <a href="form.html" class="active">Form</a>
+        <a href="table.html">Table</a>
+      </nav>
+      <footer>
+        <p>For more information please: <a href="https://zonhturnip.wordpress.com">Visit Us</a></p>
+      </footer>
+    </section>
+  </body>
+</html>
